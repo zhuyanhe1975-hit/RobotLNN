@@ -1,0 +1,5 @@
+{
+  "name": "Remix: RobotLNN",
+  "description": "An interactive interface for a Liquid Neural Network powered robot assistant.",
+  "requestFramePermissions": []
+}

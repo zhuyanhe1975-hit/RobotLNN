@@ -1,0 +1,28 @@
+{
+  "source_file": "/home/yhzhu/Industrial Robot/robotlnn/coverage_capture_20260204_103129.csv",
+  "resampled_file": "/home/yhzhu/Industrial Robot/robotlnn/coverage_capture_20260204_103129_resampled_5ms.csv",
+  "rows_original": 27616,
+  "rows_resampled": 31414,
+  "controller": {
+    "kp": 1.0,
+    "kd": 0.01
+  },
+  "original_dt_mean_s": 0.005687926163317038,
+  "original_dt_std_s": 0.08215551133099668,
+  "resampled_dt_mean_s": 0.005,
+  "resampled_dt_std_s": 6.3770834483270335e-15,
+  "time_start_s": 0.000902,
+  "time_end_s": 157.072983,
+  "tau_hat_rmse_original": 0.016672617219232258,
+  "tau_hat_corr_original": 0.905002213453114,
+  "tau_hat_rmse_resampled": 0.015620865526759412,
+  "tau_hat_corr_resampled": 0.9066999047268968,
+  "pos_range_rad": 54.378636631000006,
+  "vel_range_rad_s": 36.375944899000004,
+  "torque_range_Nm": 0.32578174000000004,
+  "assessment": [
+    "Resampling succeeded: output is on an exact 5 ms grid.",
+    "Controller torque shape is reasonably consistent with the logged torque.",
+    "Torque mismatch magnitude is acceptable for a first CSV training attempt."
+  ]
+}

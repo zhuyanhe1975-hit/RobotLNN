@@ -1,0 +1,5325 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "Y3pyN",
+      "x": 0,
+      "y": 0,
+      "name": "01 Parameter Setup",
+      "width": 1440,
+      "height": 1024,
+      "fill": "#F5F5F2",
+      "children": [
+        {
+          "type": "frame",
+          "id": "KjLKk",
+          "name": "sideA",
+          "width": 240,
+          "height": "fill_container",
+          "fill": "#000000",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "EAbrF",
+              "name": "brandA",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IACXO",
+                  "name": "logoA",
+                  "fill": "#FFFFFF",
+                  "content": "ROBOT BENCH",
+                  "fontFamily": "Inter",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "csNXr",
+                  "name": "subA",
+                  "fill": "#9CA3AF",
+                  "content": "GO-M8010-6 Workbench",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Q0mAb",
+              "name": "navA",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uLFYr",
+                  "name": "navA1",
+                  "width": "fill_container",
+                  "fill": "#161616",
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fUWpp",
+                      "name": "navA1n",
+                      "fill": "#C2410C",
+                      "content": "01",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fr58O",
+                      "name": "navA1t",
+                      "fill": "#FFFFFF",
+                      "content": "参数设置",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wT6Fg",
+                  "name": "navA2",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xINgA",
+                      "name": "navA2n",
+                      "fill": "#6B7280",
+                      "content": "02",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WaXmT",
+                      "name": "navA2t",
+                      "fill": "#9CA3AF",
+                      "content": "数据准备",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uhNdD",
+                  "name": "navA3",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "msi0y",
+                      "name": "navA3n",
+                      "fill": "#6B7280",
+                      "content": "03",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "5Qs5w",
+                      "name": "navA3t",
+                      "fill": "#9CA3AF",
+                      "content": "模型训练",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MO8mL",
+                  "name": "navA4",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fEQo0",
+                      "name": "navA4n",
+                      "fill": "#6B7280",
+                      "content": "04",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "U2GKF",
+                      "name": "navA4t",
+                      "fill": "#9CA3AF",
+                      "content": "性能评估",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "4nQ6N",
+          "name": "mainA",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "#F5F5F2",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            32,
+            36
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "a5bbl",
+              "name": "headA",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "6e087",
+                  "name": "headAL",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Xobl3",
+                      "name": "titleA",
+                      "fill": "#111111",
+                      "content": "参数设置",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 40,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "8tjOV",
+                      "name": "metaA",
+                      "fill": "#6B7280",
+                      "content": "定义关节对象、实验目标、候选方法和运行配置。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vAV76",
+                  "name": "ctxA",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mGeJ8",
+                      "name": "ctxA1",
+                      "fill": "#FFFFFF",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#D9D9D4"
+                      },
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "PAkEw",
+                          "name": "ctxA1t",
+                          "fill": "#111111",
+                          "content": "Robot: Unitree GO-M8010-6",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "G0jP5",
+              "name": "heroA2",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "g9UMw",
+                  "name": "leftA2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KkNVx",
+                      "name": "leftA2k",
+                      "fill": "#C2410C",
+                      "content": "主问题",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ji8BZ",
+                      "name": "leftA2t",
+                      "fill": "#111111",
+                      "content": "这次到底要建模哪个对象、用哪些方法、目标是什么？",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2YUGl",
+                      "name": "leftA2d",
+                      "fill": "#6B7280",
+                      "content": "先锁定关节对象、任务目标、方法范围和运行配置，再进入数据准备。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "70VDb",
+                      "name": "methodsA2",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ut4fZ",
+                          "name": "mA21",
+                          "fill": "#111111",
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "GLaLS",
+                              "name": "mA21t",
+                              "fill": "#FFFFFF",
+                              "content": "Physics ID",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rg9N3",
+                          "name": "mA22",
+                          "fill": "#EFEFE9",
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "O1Ek8",
+                              "name": "mA22t",
+                              "fill": "#111111",
+                              "content": "LSTM / PINN / LNN / NeRD",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cfXdq",
+                  "name": "rightA2",
+                  "width": 280,
+                  "fill": "#111111",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "4oyyS",
+                      "name": "rightA2k",
+                      "fill": "#C2410C",
+                      "content": "主动作",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "84Wq8",
+                      "name": "rightA2t",
+                      "fill": "#FFFFFF",
+                      "content": "确认实验配置",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4Hifj",
+                      "name": "rightA2d",
+                      "fill": "#D1D5DB",
+                      "content": "继续到数据准备，检查 sim / real 数据是否足以支撑公平 benchmark。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vbQCr",
+                      "name": "ctaA2",
+                      "fill": "#C2410C",
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "iJIMr",
+                          "name": "ctaA2t",
+                          "fill": "#FFFFFF",
+                          "content": "Continue to Data Preparation",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "6AYFn",
+              "name": "gridA2",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nkSPE",
+                  "name": "objA2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5aCzw",
+                      "name": "objA2t",
+                      "fill": "#111111",
+                      "content": "关节对象\nUnitree GO-M8010-6 / knee_pitch",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JAtTr",
+              "name": "paramExtra",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "osnrO",
+                  "name": "paramE1",
+                  "width": "fill_container",
+                  "fill": "#EFEFE9",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lET7Z",
+                      "name": "paramE1k",
+                      "fill": "#111111",
+                      "content": "实验模板",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YxZO6",
+                      "name": "paramE1d",
+                      "fill": "#6B7280",
+                      "content": "single_joint_open_loop\nlong_horizon_rollout\nengineering_compare_v1",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "9bZeU",
+                  "name": "paramE2",
+                  "width": "fill_container",
+                  "fill": "#F0FDF4",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#BBF7D0"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "F773w",
+                      "name": "paramE2k",
+                      "fill": "#15803D",
+                      "content": "成功条件",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TnElh",
+                      "name": "paramE2d",
+                      "fill": "#15803D",
+                      "content": "对象已锁定\n方法范围已锁定\n下一步只允许修改数据相关项",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "q9NpV",
+      "x": 1520,
+      "y": 0,
+      "name": "02 Data Preparation",
+      "width": 1440,
+      "height": 1024,
+      "fill": "#F5F5F2",
+      "children": [
+        {
+          "type": "frame",
+          "id": "cz2zz",
+          "name": "sideA",
+          "width": 240,
+          "height": "fill_container",
+          "fill": "#000000",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "vn8KG",
+              "name": "brandA",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IfGpe",
+                  "name": "logoA",
+                  "fill": "#FFFFFF",
+                  "content": "ROBOT BENCH",
+                  "fontFamily": "Inter",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "ZSvhO",
+                  "name": "subA",
+                  "fill": "#9CA3AF",
+                  "content": "GO-M8010-6 Workbench",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XS0CQ",
+              "name": "navA",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XjfMb",
+                  "name": "navA1",
+                  "width": "fill_container",
+                  "fill": "#0A0A0A",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PQZm8",
+                      "name": "navA1n",
+                      "fill": "#6B7280",
+                      "content": "01",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OpA1C",
+                      "name": "navA1t",
+                      "fill": "#9CA3AF",
+                      "content": "参数设置",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yWEXR",
+                  "name": "navA2",
+                  "width": "fill_container",
+                  "fill": "#161616",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GmTUz",
+                      "name": "navA2n",
+                      "fill": "#C2410C",
+                      "content": "02",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AUHZ8",
+                      "name": "navA2t",
+                      "fill": "#FFFFFF",
+                      "content": "数据准备",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "45XFP",
+                  "name": "navA3",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Hgmjz",
+                      "name": "navA3n",
+                      "fill": "#6B7280",
+                      "content": "03",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rc8by",
+                      "name": "navA3t",
+                      "fill": "#9CA3AF",
+                      "content": "模型训练",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "emK7D",
+                  "name": "navA4",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xacOp",
+                      "name": "navA4n",
+                      "fill": "#6B7280",
+                      "content": "04",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "k3c4P",
+                      "name": "navA4t",
+                      "fill": "#9CA3AF",
+                      "content": "性能评估",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TlbwR",
+          "name": "mainA",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "#F5F5F2",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            32,
+            36
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "oh8xr",
+              "name": "headA",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ctaCh",
+                  "name": "headAL",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5DHSR",
+                      "name": "titleA",
+                      "fill": "#111111",
+                      "content": "数据准备",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 40,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uwRkM",
+                      "name": "metaA",
+                      "fill": "#6B7280",
+                      "content": "确认 sim / real 数据是否可用、可比、可追踪。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uAz3o",
+                  "name": "ctxA",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "M7D7m",
+                      "name": "ctxA1",
+                      "fill": "#FFFFFF",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#D9D9D4"
+                      },
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "iwUKS",
+                          "name": "ctxA1t",
+                          "fill": "#111111",
+                          "content": "Robot: Unitree GO-M8010-6",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ttyRV",
+              "name": "heroA2",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "hHNTg",
+                  "name": "leftA2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nVjzw",
+                      "name": "leftA2k",
+                      "fill": "#C2410C",
+                      "content": "主问题",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dAUUq",
+                      "name": "leftA2t",
+                      "fill": "#111111",
+                      "content": "当前数据能不能支撑公平训练和评估？",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LDLTc",
+                      "name": "leftA2d",
+                      "fill": "#6B7280",
+                      "content": "先看数据状态、字段映射、版本和质量检查，再决定是否进入模型训练。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IrEkG",
+                      "name": "methodsA2",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "kYywY",
+                          "name": "mA21",
+                          "fill": "#111111",
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "IJmIF",
+                              "name": "mA21t",
+                              "fill": "#FFFFFF",
+                              "content": "Physics ID",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "G7GTe",
+                          "name": "mA22",
+                          "fill": "#EFEFE9",
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Xbi2a",
+                              "name": "mA22t",
+                              "fill": "#111111",
+                              "content": "LSTM / PINN / LNN / NeRD",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Auo2b",
+                  "name": "rightA2",
+                  "width": 280,
+                  "fill": "#111111",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wrmZK",
+                      "name": "rightA2k",
+                      "fill": "#C2410C",
+                      "content": "主动作",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xJgFV",
+                      "name": "rightA2t",
+                      "fill": "#FFFFFF",
+                      "content": "确认数据集版本",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BdmjH",
+                      "name": "rightA2d",
+                      "fill": "#D1D5DB",
+                      "content": "锁定可用数据版本，再把同一口径送入模型训练。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F6tMV",
+                      "name": "ctaA2",
+                      "fill": "#C2410C",
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zoBT0",
+                          "name": "ctaA2t",
+                          "fill": "#FFFFFF",
+                          "content": "Continue to Model Training",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dvyTG",
+              "name": "gridA2",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "7WFHO",
+                  "name": "objA2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hVind",
+                      "name": "objA2t",
+                      "fill": "#111111",
+                      "content": "数据版本\nsim_v0.3 + real_v0.2",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "y0XtQ",
+              "name": "dataGrid2",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JqaGz",
+                  "name": "sim2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jpcbb",
+                      "name": "sim2t",
+                      "fill": "#111111",
+                      "content": "sim 数据状态\nReady / 120 trajectories / checksum ok",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CMcNE",
+                  "name": "real2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fBPst",
+                      "name": "real2t",
+                      "fill": "#111111",
+                      "content": "real 数据状态\nPending review / 18 sessions / torque field partially mapped",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "9J4Ce",
+              "name": "quality2",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "9Vktl",
+                  "name": "map2",
+                  "width": "fill_container",
+                  "fill": "#EFEFE9",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9Vw05",
+                      "name": "map2k",
+                      "fill": "#111111",
+                      "content": "字段映射预览",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gfVpn",
+                      "name": "map2d",
+                      "fill": "#6B7280",
+                      "content": "time -> t\nactual_pos -> q\nactual_vel -> qd\nactual_tau -> action",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "0ZxSf",
+                  "name": "check2",
+                  "width": "fill_container",
+                  "fill": "#FEF2F2",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#FECACA"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xRFFx",
+                      "name": "check2k",
+                      "fill": "#B91C1C",
+                      "content": "质量检查结果",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2ZMZK",
+                      "name": "check2d",
+                      "fill": "#B91C1C",
+                      "content": "Missing: normalized dt range\nWarning: 2 real sessions require torque unit confirmation",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ATWB9",
+      "x": 3040,
+      "y": 0,
+      "name": "03 Model Training",
+      "width": 1440,
+      "height": 1024,
+      "fill": "#F5F5F2",
+      "children": [
+        {
+          "type": "frame",
+          "id": "1xNKB",
+          "name": "sideA",
+          "width": 240,
+          "height": "fill_container",
+          "fill": "#000000",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "QrzOK",
+              "name": "brandA",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "aa5ib",
+                  "name": "logoA",
+                  "fill": "#FFFFFF",
+                  "content": "ROBOT BENCH",
+                  "fontFamily": "Inter",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "osYXZ",
+                  "name": "subA",
+                  "fill": "#9CA3AF",
+                  "content": "GO-M8010-6 Workbench",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "9iC7L",
+              "name": "navA",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HGHfC",
+                  "name": "navA1",
+                  "width": "fill_container",
+                  "fill": "#0A0A0A",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aWyyZ",
+                      "name": "navA1n",
+                      "fill": "#6B7280",
+                      "content": "01",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hU22h",
+                      "name": "navA1t",
+                      "fill": "#9CA3AF",
+                      "content": "参数设置",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OELGd",
+                  "name": "navA2",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gOZWr",
+                      "name": "navA2n",
+                      "fill": "#6B7280",
+                      "content": "02",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1277b",
+                      "name": "navA2t",
+                      "fill": "#9CA3AF",
+                      "content": "数据准备",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PVsIl",
+                  "name": "navA3",
+                  "width": "fill_container",
+                  "fill": "#161616",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AzC5m",
+                      "name": "navA3n",
+                      "fill": "#C2410C",
+                      "content": "03",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "R84zX",
+                      "name": "navA3t",
+                      "fill": "#FFFFFF",
+                      "content": "模型训练",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Smj7m",
+                  "name": "navA4",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Sn3X2",
+                      "name": "navA4n",
+                      "fill": "#6B7280",
+                      "content": "04",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZTKUi",
+                      "name": "navA4t",
+                      "fill": "#9CA3AF",
+                      "content": "性能评估",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ibZQk",
+          "name": "mainA",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "#F5F5F2",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            32,
+            36
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "piMYu",
+              "name": "headA",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ugHNb",
+                  "name": "headAL",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nRx0B",
+                      "name": "titleA",
+                      "fill": "#111111",
+                      "content": "模型训练",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 40,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XRSn4",
+                      "name": "metaA",
+                      "fill": "#6B7280",
+                      "content": "配置训练方案，观察当前 run 是否按预期推进。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VRXz9",
+                  "name": "ctxA",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CxkyZ",
+                      "name": "ctxA1",
+                      "fill": "#FFFFFF",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#D9D9D4"
+                      },
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Hohd7",
+                          "name": "ctxA1t",
+                          "fill": "#111111",
+                          "content": "Robot: Unitree GO-M8010-6",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oS0uC",
+              "name": "heroA2",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ZFEQa",
+                  "name": "leftA2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "0L7eu",
+                      "name": "leftA2k",
+                      "fill": "#C2410C",
+                      "content": "主问题",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Iv1Xz",
+                      "name": "leftA2t",
+                      "fill": "#111111",
+                      "content": "这次训练是否按预期运行、是否值得继续？",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fzxYb",
+                      "name": "leftA2d",
+                      "fill": "#6B7280",
+                      "content": "先确认训练摘要与超参数，再监控 loss、队列和 GPU 资源。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "x4YDi",
+                      "name": "methodsA2",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "bTMul",
+                          "name": "mA21",
+                          "fill": "#111111",
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "3Jgir",
+                              "name": "mA21t",
+                              "fill": "#FFFFFF",
+                              "content": "Physics ID",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nr1fa",
+                          "name": "mA22",
+                          "fill": "#EFEFE9",
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qv9rv",
+                              "name": "mA22t",
+                              "fill": "#111111",
+                              "content": "LSTM / PINN / LNN / NeRD",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NWmS8",
+                  "name": "rightA2",
+                  "width": 280,
+                  "fill": "#111111",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Awcod",
+                      "name": "rightA2k",
+                      "fill": "#C2410C",
+                      "content": "主动作",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "w8rtA",
+                      "name": "rightA2t",
+                      "fill": "#FFFFFF",
+                      "content": "启动训练",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Xghvt",
+                      "name": "rightA2d",
+                      "fill": "#D1D5DB",
+                      "content": "进入 run 监控，必要时停止训练或标记候选结果。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xPAfT",
+                      "name": "ctaA2",
+                      "fill": "#C2410C",
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "HJrIY",
+                          "name": "ctaA2t",
+                          "fill": "#FFFFFF",
+                          "content": "Launch Current Run",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "E5HSP",
+              "name": "gridA2",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uBFub",
+                  "name": "objA2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "udbe9",
+                      "name": "objA2t",
+                      "fill": "#111111",
+                      "content": "当前方法\nLNN / LTC baseline",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ko3qd",
+              "name": "trainGrid",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "emMMQ",
+                  "name": "trainS",
+                  "width": 300,
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "afCD4",
+                      "name": "trainSt",
+                      "fill": "#111111",
+                      "content": "训练摘要\nMethod: LNN / LTC\nProfile: dev_gpu\nWindow: 100\nEpochs: 150",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "1LQZj",
+                  "name": "trainL",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CuVy9",
+                      "name": "trainLk",
+                      "fill": "#111111",
+                      "content": "loss 曲线占位",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "29S6l",
+                      "name": "trainLd",
+                      "fill": "#6B7280",
+                      "content": "epoch 001  loss 0.842\nepoch 037  loss 0.311\nepoch 082  loss 0.144\nepoch 121  loss 0.097",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ziRHW",
+              "name": "trainStatus",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VyiV0",
+                  "name": "queue",
+                  "width": "fill_container",
+                  "fill": "#EFEFE9",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "8qTSS",
+                      "name": "queueK",
+                      "fill": "#111111",
+                      "content": "训练队列 / 当前 run",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nGias",
+                      "name": "queueD",
+                      "fill": "#6B7280",
+                      "content": "running: run_014_lnn\nqueued: run_015_pinn\nflagged: run_009_lstm_candidate",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gzdVj",
+                  "name": "gpu",
+                  "width": "fill_container",
+                  "fill": "#F0FDF4",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#BBF7D0"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vmpCv",
+                      "name": "gpuK",
+                      "fill": "#15803D",
+                      "content": "GPU 资源",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rSfKv",
+                      "name": "gpuD",
+                      "fill": "#15803D",
+                      "content": "RTX 5090\nutilization: 82%\npeak memory: 11.8 GB",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "u0QNN",
+      "x": 4560,
+      "y": 0,
+      "name": "04 Performance Evaluation",
+      "width": 1440,
+      "height": 1024,
+      "fill": "#F5F5F2",
+      "children": [
+        {
+          "type": "frame",
+          "id": "sGiL2",
+          "name": "sideA",
+          "width": 240,
+          "height": "fill_container",
+          "fill": "#000000",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "mteIo",
+              "name": "brandA",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "LmcjW",
+                  "name": "logoA",
+                  "fill": "#FFFFFF",
+                  "content": "ROBOT BENCH",
+                  "fontFamily": "Inter",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "u0Ox3",
+                  "name": "subA",
+                  "fill": "#9CA3AF",
+                  "content": "GO-M8010-6 Workbench",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NYEjl",
+              "name": "navA",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tyoPy",
+                  "name": "navA1",
+                  "width": "fill_container",
+                  "fill": "#0A0A0A",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Fkt7N",
+                      "name": "navA1n",
+                      "fill": "#6B7280",
+                      "content": "01",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yZBUx",
+                      "name": "navA1t",
+                      "fill": "#9CA3AF",
+                      "content": "参数设置",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "c0mOu",
+                  "name": "navA2",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kiRFC",
+                      "name": "navA2n",
+                      "fill": "#6B7280",
+                      "content": "02",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Qj7Ml",
+                      "name": "navA2t",
+                      "fill": "#9CA3AF",
+                      "content": "数据准备",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "V04d9",
+                  "name": "navA3",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wGEbt",
+                      "name": "navA3n",
+                      "fill": "#6B7280",
+                      "content": "03",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eJ535",
+                      "name": "navA3t",
+                      "fill": "#9CA3AF",
+                      "content": "模型训练",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qHo3S",
+                  "name": "navA4",
+                  "width": "fill_container",
+                  "fill": "#161616",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "f3iXc",
+                      "name": "navA4n",
+                      "fill": "#C2410C",
+                      "content": "04",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QuWEQ",
+                      "name": "navA4t",
+                      "fill": "#FFFFFF",
+                      "content": "性能评估",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kl3UO",
+          "name": "mainA",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "#F5F5F2",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            32,
+            36
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "cuyuF",
+              "name": "headA",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "4t1gA",
+                  "name": "headAL",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UB1jo",
+                      "name": "titleA",
+                      "fill": "#111111",
+                      "content": "性能评估",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 40,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2kmCz",
+                      "name": "metaA",
+                      "fill": "#6B7280",
+                      "content": "对单 run 或多方法进行结论导向的比较与筛选。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "s53T2",
+                  "name": "ctxA",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "B0M85",
+                      "name": "ctxA1",
+                      "fill": "#FFFFFF",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#D9D9D4"
+                      },
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "2Y1Gc",
+                          "name": "ctxA1t",
+                          "fill": "#111111",
+                          "content": "Robot: Unitree GO-M8010-6",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "X7n4e",
+              "name": "heroA2",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ijYAz",
+                  "name": "leftA2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IQHqt",
+                      "name": "leftA2k",
+                      "fill": "#C2410C",
+                      "content": "主问题",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "01Jps",
+                      "name": "leftA2t",
+                      "fill": "#111111",
+                      "content": "哪个方法在当前任务上最值得进入下一轮？",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4iQOY",
+                      "name": "leftA2d",
+                      "fill": "#6B7280",
+                      "content": "聚焦误差、rollout 稳定性、效率和工程建议，而不是单次演示结果。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UH5hR",
+                      "name": "methodsA2",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "N53gP",
+                          "name": "mA21",
+                          "fill": "#111111",
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "vK5CT",
+                              "name": "mA21t",
+                              "fill": "#FFFFFF",
+                              "content": "Physics ID",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "2uGjb",
+                          "name": "mA22",
+                          "fill": "#EFEFE9",
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "p2ykr",
+                              "name": "mA22t",
+                              "fill": "#111111",
+                              "content": "LSTM / PINN / LNN / NeRD",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PLYZ3",
+                  "name": "rightA2",
+                  "width": 280,
+                  "fill": "#111111",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dkfRY",
+                      "name": "rightA2k",
+                      "fill": "#C2410C",
+                      "content": "主动作",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Irq1O",
+                      "name": "rightA2t",
+                      "fill": "#FFFFFF",
+                      "content": "选择保留方案",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xHx94",
+                      "name": "rightA2d",
+                      "fill": "#D1D5DB",
+                      "content": "锁定候选方法，或退回训练继续修订。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ee29q",
+                      "name": "ctaA2",
+                      "fill": "#C2410C",
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hI7HK",
+                          "name": "ctaA2t",
+                          "fill": "#FFFFFF",
+                          "content": "Select Candidate Method",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "z1eCa",
+              "name": "gridA2",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "J913u",
+                  "name": "objA2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zIyQZ",
+                      "name": "objA2t",
+                      "fill": "#111111",
+                      "content": "评测目标\nopen-loop rollout @ 0.1s / 0.5s / 1.0s",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kiPEZ",
+              "name": "evalGrid",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "iNeDZ",
+                  "name": "metric1",
+                  "width": "fill_container",
+                  "fill": "#111111",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "x0xDX",
+                      "name": "metric1k",
+                      "fill": "#9CA3AF",
+                      "content": "Pos RMSE",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AX4PF",
+                      "name": "metric1d",
+                      "fill": "#FFFFFF",
+                      "content": "0.0048",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "454qw",
+                  "name": "metric2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WkV4a",
+                      "name": "metric2k",
+                      "fill": "#6B7280",
+                      "content": "Rollout @ 0.5s",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "3DryF",
+                      "name": "metric2d",
+                      "fill": "#111111",
+                      "content": "stable",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pXexY",
+              "name": "compare",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#D9D9D4"
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DbKjb",
+                  "name": "compareK",
+                  "fill": "#111111",
+                  "content": "多方法对比",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "TM81o",
+                  "name": "row1",
+                  "fill": "#111111",
+                  "content": "LNN    pos 0.0048   rollout@0.5 stable   latency 1.3ms",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "RhAlt",
+                  "name": "row2",
+                  "fill": "#6B7280",
+                  "content": "PINN   pos 0.0062   rollout@0.5 drift     latency 2.4ms",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "8ZX6p",
+                  "name": "row3",
+                  "fill": "#6B7280",
+                  "content": "LSTM   pos 0.0085   rollout@0.5 drift     latency 0.9ms",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WmRhu",
+              "name": "rec",
+              "width": "fill_container",
+              "fill": "#F0FDF4",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#BBF7D0"
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "gGPDy",
+                  "name": "recK",
+                  "fill": "#15803D",
+                  "content": "工程建议",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "zDeWh",
+                  "name": "recD",
+                  "fill": "#15803D",
+                  "content": "保留 LNN 进入下一轮，回到模型训练仅继续调 PINN 的长时稳定性。",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Cl2Uk",
+              "name": "horizonWrap",
+              "width": "fill_container",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kP3S9",
+                  "name": "h1",
+                  "fill": "#111111",
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6tnS4",
+                      "name": "h1t",
+                      "fill": "#FFFFFF",
+                      "content": "0.1s",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vY9g8",
+                  "name": "h2",
+                  "fill": "#EFEFE9",
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KSLXk",
+                      "name": "h2t",
+                      "fill": "#111111",
+                      "content": "0.5s",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "f6O9u",
+                  "name": "h3",
+                  "fill": "#EFEFE9",
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HpEyi",
+                      "name": "h3t",
+                      "fill": "#111111",
+                      "content": "1.0s",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "wAsX9",
+      "x": 0,
+      "y": 0,
+      "name": "Test",
+      "width": 100,
+      "height": 100,
+      "fill": "#FFFFFF"
+    },
+    {
+      "type": "frame",
+      "id": "VIU1W",
+      "x": 0,
+      "y": 0,
+      "name": "01 Parameter Setup",
+      "width": 1440,
+      "height": 1024,
+      "fill": "#F5F5F2",
+      "children": [
+        {
+          "type": "frame",
+          "id": "njcpk",
+          "name": "side1",
+          "width": 240,
+          "height": "fill_container",
+          "fill": "#0A0A0A",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "kKQUs",
+              "name": "brand1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "okrIJ",
+                  "name": "logo1",
+                  "fill": "#FFFFFF",
+                  "content": "ROBOT BENCH",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "Pp9Ve",
+                  "name": "sub1",
+                  "fill": "#9CA3AF",
+                  "content": "GO-M8010-6 Workbench",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "0Uv52",
+              "name": "nav1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MHGsy",
+                  "name": "item11",
+                  "width": "fill_container",
+                  "fill": "#161616",
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "psfv7",
+                      "name": "item11t",
+                      "fill": "#FFFFFF",
+                      "content": "01  参数设置",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HAguA",
+                  "name": "item12",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "C5Vpk",
+                      "name": "item12t",
+                      "fill": "#9CA3AF",
+                      "content": "02  数据准备",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Z77Zv",
+                  "name": "item13",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pLTEz",
+                      "name": "item13t",
+                      "fill": "#9CA3AF",
+                      "content": "03  模型训练",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "U2bJ4",
+                  "name": "item14",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Bi1v3",
+                      "name": "item14t",
+                      "fill": "#9CA3AF",
+                      "content": "04  性能评估",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OVn12",
+          "name": "main1",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "#F5F5F2",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            32,
+            36
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "6w1F2",
+              "name": "head1",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "F73ln",
+                  "name": "head1L",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "apjkb",
+                      "name": "title1",
+                      "fill": "#111111",
+                      "content": "参数设置",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 40,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "52jwF",
+                      "name": "meta1",
+                      "fill": "#6B7280",
+                      "content": "定义关节对象、实验目标、候选方法和运行配置。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PXy6Z",
+                  "name": "ctx1",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "padding": [
+                    10,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sLOkI",
+                      "name": "ctx1t",
+                      "fill": "#111111",
+                      "content": "Robot: Unitree GO-M8010-6",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KTxXZ",
+              "name": "hero1",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "t8d9L",
+                  "name": "hero1L",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RIZcb",
+                      "name": "hero1Lk",
+                      "fill": "#C2410C",
+                      "content": "主问题",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NN3qr",
+                      "name": "hero1Lt",
+                      "fill": "#111111",
+                      "content": "这次到底要建模哪个对象、用哪些方法、目标是什么？",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iQQp5",
+                      "name": "hero1Ld",
+                      "fill": "#6B7280",
+                      "content": "先锁定关节对象、任务目标、方法范围和运行配置，再进入数据准备。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gZwVA",
+                      "name": "method1",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "yNjlw",
+                          "name": "method1a",
+                          "fill": "#111111",
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Q5ObX",
+                              "name": "method1at",
+                              "fill": "#FFFFFF",
+                              "content": "Physics ID",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "yRnWg",
+                          "name": "method1b",
+                          "fill": "#EFEFE9",
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "sxA3A",
+                              "name": "method1bt",
+                              "fill": "#111111",
+                              "content": "LSTM / PINN / LNN / NeRD",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GfWZQ",
+                  "name": "hero1R",
+                  "width": 280,
+                  "fill": "#111111",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "3sv12",
+                      "name": "hero1Rk",
+                      "fill": "#C2410C",
+                      "content": "主动作",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xmF8i",
+                      "name": "hero1Rt",
+                      "fill": "#FFFFFF",
+                      "content": "确认实验配置",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "9zVu8",
+                      "name": "hero1Rd",
+                      "fill": "#D1D5DB",
+                      "content": "继续到数据准备，检查 sim / real 数据是否足以支撑公平 benchmark。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "i5Mbw",
+                      "name": "hero1Btn",
+                      "fill": "#C2410C",
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NyqoM",
+                          "name": "hero1Btnt",
+                          "fill": "#FFFFFF",
+                          "content": "Continue to Data Preparation",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dPwwr",
+              "name": "grid1",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jXjcM",
+                  "name": "obj1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "3fWbL",
+                      "name": "obj1t",
+                      "fill": "#111111",
+                      "content": "关节对象\nUnitree GO-M8010-6 / knee_pitch",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZhZ79",
+                  "name": "profile1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZKxyh",
+                      "name": "profile1t",
+                      "fill": "#111111",
+                      "content": "运行配置\nProfile: benchmark_gpu\nTask: open-loop rollout\nTemplate: single_joint_compare",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "1D25e",
+              "name": "extra1",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "40YJq",
+                  "name": "extra1a",
+                  "width": "fill_container",
+                  "fill": "#EFEFE9",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jqDJs",
+                      "name": "extra1at",
+                      "fill": "#6B7280",
+                      "content": "实验模板\nsingle_joint_open_loop\nlong_horizon_rollout\nengineering_compare_v1",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KfyeC",
+                  "name": "extra1b",
+                  "width": "fill_container",
+                  "fill": "#F0FDF4",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#BBF7D0"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jiPME",
+                      "name": "extra1bt",
+                      "fill": "#15803D",
+                      "content": "成功条件\n对象已锁定\n方法范围已锁定\n下一步只允许修改数据相关项",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "vbkEf",
+      "x": 6080,
+      "y": 0,
+      "name": "02 Data Preparation",
+      "width": 1440,
+      "height": 1024,
+      "fill": "#F5F5F2",
+      "children": [
+        {
+          "type": "frame",
+          "id": "EOWdK",
+          "name": "side1",
+          "width": 240,
+          "height": "fill_container",
+          "fill": "#0A0A0A",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "AqV5k",
+              "name": "brand1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bs6EH",
+                  "name": "logo1",
+                  "fill": "#FFFFFF",
+                  "content": "ROBOT BENCH",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "QfUrj",
+                  "name": "sub1",
+                  "fill": "#9CA3AF",
+                  "content": "GO-M8010-6 Workbench",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cwz2b",
+              "name": "nav1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Nedyc",
+                  "name": "item11",
+                  "width": "fill_container",
+                  "fill": "#0A0A0A",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gOu6T",
+                      "name": "item11t",
+                      "fill": "#9CA3AF",
+                      "content": "01  参数设置",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "9NKqG",
+                  "name": "item12",
+                  "width": "fill_container",
+                  "fill": "#161616",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ezCfZ",
+                      "name": "item12t",
+                      "fill": "#FFFFFF",
+                      "content": "02  数据准备",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Nqgr5",
+                  "name": "item13",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5n6HZ",
+                      "name": "item13t",
+                      "fill": "#9CA3AF",
+                      "content": "03  模型训练",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bU0DU",
+                  "name": "item14",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mTpWs",
+                      "name": "item14t",
+                      "fill": "#9CA3AF",
+                      "content": "04  性能评估",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OsXjn",
+          "name": "main1",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "#F5F5F2",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            32,
+            36
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "RoPYL",
+              "name": "head1",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mPQ2b",
+                  "name": "head1L",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "YvCft",
+                      "name": "title1",
+                      "fill": "#111111",
+                      "content": "数据准备",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 40,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WQdgF",
+                      "name": "meta1",
+                      "fill": "#6B7280",
+                      "content": "确认 sim / real 数据是否可用、可比、可追踪。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "2Gy2v",
+                  "name": "ctx1",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "padding": [
+                    10,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cjxNu",
+                      "name": "ctx1t",
+                      "fill": "#111111",
+                      "content": "Robot: Unitree GO-M8010-6",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "1kBUY",
+              "name": "hero1",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "4XuDX",
+                  "name": "hero1L",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "l3znV",
+                      "name": "hero1Lk",
+                      "fill": "#C2410C",
+                      "content": "主问题",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TGyru",
+                      "name": "hero1Lt",
+                      "fill": "#111111",
+                      "content": "当前数据能不能支撑公平训练和评估？",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "3WWov",
+                      "name": "hero1Ld",
+                      "fill": "#6B7280",
+                      "content": "先看数据状态、字段映射、版本和质量检查，再决定是否进入模型训练。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qF4XO",
+                      "name": "method1",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "0TDBn",
+                          "name": "method1a",
+                          "fill": "#111111",
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "GxqSd",
+                              "name": "method1at",
+                              "fill": "#FFFFFF",
+                              "content": "Physics ID",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DA4v2",
+                          "name": "method1b",
+                          "fill": "#EFEFE9",
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "yIRak",
+                              "name": "method1bt",
+                              "fill": "#111111",
+                              "content": "LSTM / PINN / LNN / NeRD",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kbjpO",
+                  "name": "hero1R",
+                  "width": 280,
+                  "fill": "#111111",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "oxDSP",
+                      "name": "hero1Rk",
+                      "fill": "#C2410C",
+                      "content": "主动作",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1yzow",
+                      "name": "hero1Rt",
+                      "fill": "#FFFFFF",
+                      "content": "确认数据集版本",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6Pd1u",
+                      "name": "hero1Rd",
+                      "fill": "#D1D5DB",
+                      "content": "锁定可用数据版本，再把同一口径送入模型训练。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KkprC",
+                      "name": "hero1Btn",
+                      "fill": "#C2410C",
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KYdq7",
+                          "name": "hero1Btnt",
+                          "fill": "#FFFFFF",
+                          "content": "Continue to Model Training",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "26yJk",
+              "name": "grid1",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "6QuK7",
+                  "name": "obj1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Nx60a",
+                      "name": "obj1t",
+                      "fill": "#111111",
+                      "content": "数据版本\nsim_v0.3 + real_v0.2",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rSDUt",
+                  "name": "profile1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yzzxK",
+                      "name": "profile1t",
+                      "fill": "#111111",
+                      "content": "运行配置\nProfile: benchmark_gpu\nTask: open-loop rollout\nTemplate: single_joint_compare",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RjtM9",
+              "name": "extra1",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "IJNvS",
+                  "name": "extra1a",
+                  "width": "fill_container",
+                  "fill": "#EFEFE9",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xDA1r",
+                      "name": "extra1at",
+                      "fill": "#6B7280",
+                      "content": "实验模板\nsingle_joint_open_loop\nlong_horizon_rollout\nengineering_compare_v1",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mWIKi",
+                  "name": "extra1b",
+                  "width": "fill_container",
+                  "fill": "#F0FDF4",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#BBF7D0"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EF7FF",
+                      "name": "extra1bt",
+                      "fill": "#15803D",
+                      "content": "成功条件\n对象已锁定\n方法范围已锁定\n下一步只允许修改数据相关项",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3cNhb",
+              "name": "dataGrid2",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "F98wB",
+                  "name": "sim2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "V5zFr",
+                      "name": "sim2t",
+                      "fill": "#111111",
+                      "content": "sim 数据状态\nReady / 120 trajectories / checksum ok",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Qt4aS",
+                  "name": "real2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zAxzF",
+                      "name": "real2t",
+                      "fill": "#111111",
+                      "content": "real 数据状态\nPending review / 18 sessions / torque field partially mapped",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lnKA2",
+              "name": "quality2",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "0EXq3",
+                  "name": "map2",
+                  "width": "fill_container",
+                  "fill": "#EFEFE9",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "38QAl",
+                      "name": "map2d",
+                      "fill": "#6B7280",
+                      "content": "字段映射预览\ntime -> t\nactual_pos -> q\nactual_vel -> qd\nactual_tau -> action",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4FDu8",
+                  "name": "check2",
+                  "width": "fill_container",
+                  "fill": "#FEF2F2",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#FECACA"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Pl33r",
+                      "name": "check2d",
+                      "fill": "#B91C1C",
+                      "content": "质量检查结果\nMissing: normalized dt range\nWarning: 2 real sessions require torque unit confirmation",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "GYFjV",
+      "x": 7600,
+      "y": 0,
+      "name": "03 Model Training",
+      "width": 1440,
+      "height": 1024,
+      "fill": "#F5F5F2",
+      "children": [
+        {
+          "type": "frame",
+          "id": "HhpzB",
+          "name": "side1",
+          "width": 240,
+          "height": "fill_container",
+          "fill": "#0A0A0A",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "7stx7",
+              "name": "brand1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "heLDk",
+                  "name": "logo1",
+                  "fill": "#FFFFFF",
+                  "content": "ROBOT BENCH",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "UVkps",
+                  "name": "sub1",
+                  "fill": "#9CA3AF",
+                  "content": "GO-M8010-6 Workbench",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m70cC",
+              "name": "nav1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ovTxz",
+                  "name": "item11",
+                  "width": "fill_container",
+                  "fill": "#0A0A0A",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MkbkZ",
+                      "name": "item11t",
+                      "fill": "#9CA3AF",
+                      "content": "01  参数设置",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aHxzb",
+                  "name": "item12",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GnBC8",
+                      "name": "item12t",
+                      "fill": "#9CA3AF",
+                      "content": "02  数据准备",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "2qetr",
+                  "name": "item13",
+                  "width": "fill_container",
+                  "fill": "#161616",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Odq5u",
+                      "name": "item13t",
+                      "fill": "#FFFFFF",
+                      "content": "03  模型训练",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zqnLF",
+                  "name": "item14",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dOk2H",
+                      "name": "item14t",
+                      "fill": "#9CA3AF",
+                      "content": "04  性能评估",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SM2kc",
+          "name": "main1",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "#F5F5F2",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            32,
+            36
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "V4UUV",
+              "name": "head1",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "h9rGi",
+                  "name": "head1L",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "skUWs",
+                      "name": "title1",
+                      "fill": "#111111",
+                      "content": "模型训练",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 40,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tV6Rq",
+                      "name": "meta1",
+                      "fill": "#6B7280",
+                      "content": "配置训练方案，观察当前 run 是否按预期推进。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YhAaf",
+                  "name": "ctx1",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "padding": [
+                    10,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HIicy",
+                      "name": "ctx1t",
+                      "fill": "#111111",
+                      "content": "Robot: Unitree GO-M8010-6",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "n6hsq",
+              "name": "hero1",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "txVKV",
+                  "name": "hero1L",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZisvR",
+                      "name": "hero1Lk",
+                      "fill": "#C2410C",
+                      "content": "主问题",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "34seC",
+                      "name": "hero1Lt",
+                      "fill": "#111111",
+                      "content": "这次训练是否按预期运行、是否值得继续？",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "C46I3",
+                      "name": "hero1Ld",
+                      "fill": "#6B7280",
+                      "content": "先确认训练摘要与超参数，再监控 loss、队列和 GPU 资源。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Rh9Y1",
+                      "name": "method1",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "57sV8",
+                          "name": "method1a",
+                          "fill": "#111111",
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "sDM9s",
+                              "name": "method1at",
+                              "fill": "#FFFFFF",
+                              "content": "Physics ID",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nG2KP",
+                          "name": "method1b",
+                          "fill": "#EFEFE9",
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "FQJZG",
+                              "name": "method1bt",
+                              "fill": "#111111",
+                              "content": "LSTM / PINN / LNN / NeRD",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jlhSg",
+                  "name": "hero1R",
+                  "width": 280,
+                  "fill": "#111111",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jYLs2",
+                      "name": "hero1Rk",
+                      "fill": "#C2410C",
+                      "content": "主动作",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GnUzP",
+                      "name": "hero1Rt",
+                      "fill": "#FFFFFF",
+                      "content": "启动训练",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nUbhL",
+                      "name": "hero1Rd",
+                      "fill": "#D1D5DB",
+                      "content": "进入 run 监控，必要时停止训练或标记候选结果。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "INW2a",
+                      "name": "hero1Btn",
+                      "fill": "#C2410C",
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XRJYq",
+                          "name": "hero1Btnt",
+                          "fill": "#FFFFFF",
+                          "content": "Launch Current Run",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PdwNU",
+              "name": "grid1",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nkmo3",
+                  "name": "obj1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xQsqs",
+                      "name": "obj1t",
+                      "fill": "#111111",
+                      "content": "当前方法\nLNN / LTC baseline",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iW1df",
+                  "name": "profile1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jnBaU",
+                      "name": "profile1t",
+                      "fill": "#111111",
+                      "content": "运行配置\nProfile: benchmark_gpu\nTask: open-loop rollout\nTemplate: single_joint_compare",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eYX0L",
+              "name": "extra1",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "aZm1j",
+                  "name": "extra1a",
+                  "width": "fill_container",
+                  "fill": "#EFEFE9",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "3hnmL",
+                      "name": "extra1at",
+                      "fill": "#6B7280",
+                      "content": "实验模板\nsingle_joint_open_loop\nlong_horizon_rollout\nengineering_compare_v1",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "8Yjwa",
+                  "name": "extra1b",
+                  "width": "fill_container",
+                  "fill": "#F0FDF4",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#BBF7D0"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JHCxj",
+                      "name": "extra1bt",
+                      "fill": "#15803D",
+                      "content": "成功条件\n对象已锁定\n方法范围已锁定\n下一步只允许修改数据相关项",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "al6i0",
+              "name": "trainGrid",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HljQU",
+                  "name": "trainS",
+                  "width": 300,
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VR53j",
+                      "name": "trainSt",
+                      "fill": "#111111",
+                      "content": "训练摘要\nMethod: LNN / LTC\nProfile: dev_gpu\nWindow: 100\nEpochs: 150",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ogBHX",
+                  "name": "trainL",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UxegI",
+                      "name": "trainLd",
+                      "fill": "#6B7280",
+                      "content": "loss 曲线占位\nepoch 001  loss 0.842\nepoch 037  loss 0.311\nepoch 082  loss 0.144\nepoch 121  loss 0.097",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sSCoC",
+              "name": "trainStatus",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "5e9XB",
+                  "name": "queue",
+                  "width": "fill_container",
+                  "fill": "#EFEFE9",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZlXRU",
+                      "name": "queueD",
+                      "fill": "#6B7280",
+                      "content": "训练队列 / 当前 run\nrunning: run_014_lnn\nqueued: run_015_pinn\nflagged: run_009_lstm_candidate",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CfRNK",
+                  "name": "gpu",
+                  "width": "fill_container",
+                  "fill": "#F0FDF4",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#BBF7D0"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "p1tuB",
+                      "name": "gpuD",
+                      "fill": "#15803D",
+                      "content": "GPU 资源\nRTX 5090\nutilization: 82%\npeak memory: 11.8 GB",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "4TJMu",
+      "x": 9120,
+      "y": 0,
+      "name": "04 Performance Evaluation",
+      "width": 1440,
+      "height": 1024,
+      "fill": "#F5F5F2",
+      "children": [
+        {
+          "type": "frame",
+          "id": "QBJC3",
+          "name": "side1",
+          "width": 240,
+          "height": "fill_container",
+          "fill": "#0A0A0A",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "fmqdC",
+              "name": "brand1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WShFS",
+                  "name": "logo1",
+                  "fill": "#FFFFFF",
+                  "content": "ROBOT BENCH",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "F3a4Y",
+                  "name": "sub1",
+                  "fill": "#9CA3AF",
+                  "content": "GO-M8010-6 Workbench",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EDxqs",
+              "name": "nav1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NjSxQ",
+                  "name": "item11",
+                  "width": "fill_container",
+                  "fill": "#0A0A0A",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NTSDd",
+                      "name": "item11t",
+                      "fill": "#9CA3AF",
+                      "content": "01  参数设置",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PGfjA",
+                  "name": "item12",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "oZNNo",
+                      "name": "item12t",
+                      "fill": "#9CA3AF",
+                      "content": "02  数据准备",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KKZPE",
+                  "name": "item13",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Axnfj",
+                      "name": "item13t",
+                      "fill": "#9CA3AF",
+                      "content": "03  模型训练",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "5LQBw",
+                  "name": "item14",
+                  "width": "fill_container",
+                  "fill": "#161616",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#2A2A2A"
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CPFsI",
+                      "name": "item14t",
+                      "fill": "#FFFFFF",
+                      "content": "04  性能评估",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "1pIVO",
+          "name": "main1",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "#F5F5F2",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            32,
+            36
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "D6ebv",
+              "name": "head1",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vRJoT",
+                  "name": "head1L",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WIMmX",
+                      "name": "title1",
+                      "fill": "#111111",
+                      "content": "性能评估",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 40,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NL9In",
+                      "name": "meta1",
+                      "fill": "#6B7280",
+                      "content": "对单 run 或多方法进行结论导向的比较与筛选。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RJCVz",
+                  "name": "ctx1",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "padding": [
+                    10,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5qPUq",
+                      "name": "ctx1t",
+                      "fill": "#111111",
+                      "content": "Robot: Unitree GO-M8010-6",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "derfL",
+              "name": "hero1",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "9MOyI",
+                  "name": "hero1L",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6nBvQ",
+                      "name": "hero1Lk",
+                      "fill": "#C2410C",
+                      "content": "主问题",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cVhgg",
+                      "name": "hero1Lt",
+                      "fill": "#111111",
+                      "content": "哪个方法在当前任务上最值得进入下一轮？",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4o3m5",
+                      "name": "hero1Ld",
+                      "fill": "#6B7280",
+                      "content": "聚焦误差、rollout 稳定性、效率和工程建议，而不是单次演示结果。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vhjFk",
+                      "name": "method1",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "OyhEW",
+                          "name": "method1a",
+                          "fill": "#111111",
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "YEH2k",
+                              "name": "method1at",
+                              "fill": "#FFFFFF",
+                              "content": "Physics ID",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "g5eTC",
+                          "name": "method1b",
+                          "fill": "#EFEFE9",
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "zeBZb",
+                              "name": "method1bt",
+                              "fill": "#111111",
+                              "content": "LSTM / PINN / LNN / NeRD",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "q7tLO",
+                  "name": "hero1R",
+                  "width": 280,
+                  "fill": "#111111",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "1PZRQ",
+                      "name": "hero1Rk",
+                      "fill": "#C2410C",
+                      "content": "主动作",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JNTGF",
+                      "name": "hero1Rt",
+                      "fill": "#FFFFFF",
+                      "content": "选择保留方案",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dzmdR",
+                      "name": "hero1Rd",
+                      "fill": "#D1D5DB",
+                      "content": "锁定候选方法，或退回训练继续修订。",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "r12jO",
+                      "name": "hero1Btn",
+                      "fill": "#C2410C",
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Px0Z1",
+                          "name": "hero1Btnt",
+                          "fill": "#FFFFFF",
+                          "content": "Select Candidate Method",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "0Blki",
+              "name": "grid1",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "cYfU6",
+                  "name": "obj1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TPCCi",
+                      "name": "obj1t",
+                      "fill": "#111111",
+                      "content": "评测目标\nopen-loop rollout @ 0.1s / 0.5s / 1.0s",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cxMTs",
+                  "name": "profile1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DFxDo",
+                      "name": "profile1t",
+                      "fill": "#111111",
+                      "content": "运行配置\nProfile: benchmark_gpu\nTask: open-loop rollout\nTemplate: single_joint_compare",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "8bN9e",
+              "name": "extra1",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "TjxiA",
+                  "name": "extra1a",
+                  "width": "fill_container",
+                  "fill": "#EFEFE9",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6vRPc",
+                      "name": "extra1at",
+                      "fill": "#6B7280",
+                      "content": "实验模板\nsingle_joint_open_loop\nlong_horizon_rollout\nengineering_compare_v1",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iAzdx",
+                  "name": "extra1b",
+                  "width": "fill_container",
+                  "fill": "#F0FDF4",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#BBF7D0"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "p2wSE",
+                      "name": "extra1bt",
+                      "fill": "#15803D",
+                      "content": "成功条件\n对象已锁定\n方法范围已锁定\n下一步只允许修改数据相关项",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "QWFeA",
+              "name": "evalGrid",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "s2dmM",
+                  "name": "metric1",
+                  "width": "fill_container",
+                  "fill": "#111111",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Sphjz",
+                      "name": "metric1d",
+                      "fill": "#FFFFFF",
+                      "content": "Pos RMSE\n0.0048",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "l88vQ",
+                  "name": "metric2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D9D9D4"
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9kkLC",
+                      "name": "metric2d",
+                      "fill": "#111111",
+                      "content": "Rollout @ 0.5s\nstable",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "4tOjM",
+              "name": "horizon",
+              "width": "fill_container",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "sfd49",
+                  "name": "h1",
+                  "fill": "#111111",
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ns6nF",
+                      "name": "h1t",
+                      "fill": "#FFFFFF",
+                      "content": "0.1s",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DlmB9",
+                  "name": "h2",
+                  "fill": "#EFEFE9",
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "0BP6L",
+                      "name": "h2t",
+                      "fill": "#111111",
+                      "content": "0.5s",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "2hKP1",
+                  "name": "h3",
+                  "fill": "#EFEFE9",
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jGlPX",
+                      "name": "h3t",
+                      "fill": "#111111",
+                      "content": "1.0s",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "702o0",
+              "name": "compare",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#D9D9D4"
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "8OBCN",
+                  "name": "compareD",
+                  "fill": "#6B7280",
+                  "content": "多方法对比\nLNN    pos 0.0048   rollout@0.5 stable   latency 1.3ms\nPINN   pos 0.0062   rollout@0.5 drift     latency 2.4ms\nLSTM   pos 0.0085   rollout@0.5 drift     latency 0.9ms",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GJPHp",
+              "name": "rec",
+              "width": "fill_container",
+              "fill": "#F0FDF4",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#BBF7D0"
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "svlht",
+                  "name": "recD",
+                  "fill": "#15803D",
+                  "content": "工程建议\n保留 LNN 进入下一轮，回到模型训练仅继续调 PINN 的长时稳定性。",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
