@@ -269,7 +269,8 @@ export default function App() {
   });
 
   const scrollRef = useRef<HTMLDivElement>(null);
-  const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || '' });
+  const geminiApiKey = process.env.GEMINI_API_KEY || '';
+  const ai = geminiApiKey ? new GoogleGenAI({ apiKey: geminiApiKey }) : null;
   const [currentRunId, setCurrentRunId] = useState<string | null>(null);
   const [trainStatusMessage, setTrainStatusMessage] = useState('Ready to launch backend LNN training.');
 
@@ -659,6 +660,14 @@ export default function App() {
     const userMessage: Message = { role: 'user', content: input, timestamp: new Date() };
     setMessages(prev => [...prev, userMessage]);
     setInput('');
+    if (!ai) {
+      setMessages(prev => [...prev, {
+        role: 'bot',
+        content: 'MISSING API KEY: GEMINI_API_KEY is not set. This public demo does not include a Gemini key, so the assistant cannot reply. Add GEMINI_API_KEY to .env.local to enable it locally.',
+        timestamp: new Date()
+      }]);
+      return;
+    }
     setIsThinking(true);
 
     try {
@@ -1184,6 +1193,11 @@ function SystemView({
             RUN WORKBENCH CHECK
           </button>
         </div>
+        {!process.env.GEMINI_API_KEY && (
+          <p className="rounded-xl border border-amber-300/30 bg-amber-300/10 px-4 py-3 text-center font-mono text-[10px] uppercase tracking-wider text-amber-200">
+            Missing API key: GEMINI_API_KEY is not set, so the Gemini assistant is unavailable.
+          </p>
+        )}
 
         <div className="bg-[#151619] p-6 rounded-2xl hardware-border flex flex-col gap-6">
           <div className="flex items-center gap-2">
